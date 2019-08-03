@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.static(__dirname + '/../dist/'));
 app.use(morgan('dev'));
-app.use('/api', router);
+app.use('', router);
 
 
 
